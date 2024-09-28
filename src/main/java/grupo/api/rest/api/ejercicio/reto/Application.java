@@ -2,6 +2,9 @@ package grupo.api.rest.api.ejercicio.reto;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.openfeign.EnableFeignClients;
+
+@EnableFeignClients
 
 @SpringBootApplication
 public class Application {
