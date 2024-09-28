@@ -1,14 +1,16 @@
 package grupo.api.rest.api.ejercicio.reto.cotroller;
 
+
 import grupo.api.rest.api.ejercicio.reto.modelos.Inventario;
 import grupo.api.rest.api.ejercicio.reto.service.InventarioService;
+import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-
+@RequiredArgsConstructor
 @RestController
 @RequestMapping("/api/inventario")
 public class InventarioController {
